@@ -1,0 +1,5 @@
+recipient_name = input("Please enter recipient_name: ")
+birth_year = input("Please enter the year of birth: ")
+birth_year = int(birth_year)
+special_message = input("Please enter a personalized message: ")
+sender_name = input("Please enter your name: ")
