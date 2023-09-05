@@ -1,8 +1,6 @@
 # importing userinput.py to main.py to access the defined variables
 import userinput
-import time as t
 
-t.sleep(0.5)
 print(100 * "-")
 # printing recipients name and age as per Assignment request.
 print(f"Hi {userinput.recipient_name}, let's celebrate your {userinput.age} years of awesomeness! \nWishing you a day "
