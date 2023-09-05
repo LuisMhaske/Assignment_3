@@ -1,7 +1,12 @@
+# importing userinput.py to main.py to access the defined variables
 import userinput
-import datetime
 
-today = datetime.date.today()
-curr_year = today.year
-age = curr_year - userinput.birth_year
-print(userinput.recipient_name, age)
+# printing recipients name and age as per Assignment request.
+print(f"Hi {userinput.recipient_name}, let celebrate your {userinput.age} years of awesomeness! \n Wishing you a day "
+      f"filled with joy and laughter as you turn {userinput.age}!")
+
+# print personalized message
+print(userinput.special_message)
+
+# print sender's name
+print(userinput.sender_name)
